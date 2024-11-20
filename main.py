@@ -2,11 +2,11 @@ import tweepy
 
 # Twitter API credentials
 
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAKMeqAEAAAAAUsKIywZB14zeWgxBgtnjRHswjCM%3DG2JVdeDEVU6o0zjYfCw2mXBj0MTPQ464ORUqeJ4uWgle1Dqxwk'
-API_KEY = 'fJALnBjKkOXKdkgQ29zpdc2I8'
-API_SECRET_KEY = 'vo2MWFHMEYCSQ1Yekc4qoAi4exDjsXVneJiRSvaz9IcXk3Saao'
-ACCESS_TOKEN = '1403012288676761606-DCm9Y3CZND5UcoEGmWa6ZjqN0nn0Op'
-ACCESS_TOKEN_SECRET = 'tzYKkx0KKpSUvgqKCCOrMXUTDsYJlnneVabgqZNv6vpmy'
+BEARER_TOKEN = 'your Bearer_token'
+API_KEY = 'your Api Key'
+API_SECRET_KEY = 'your api secret key'
+ACCESS_TOKEN = 'your Access token'
+ACCESS_TOKEN_SECRET = 'your Access token secret'
 # Authenticate using Twitter API v2 (Tweepy Client)
 client = tweepy.Client(
     bearer_token=BEARER_TOKEN,
