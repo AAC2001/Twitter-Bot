@@ -28,7 +28,6 @@ def auto_like(search_term, max_tweets):
                     print(f"Error liking tweet: {e}")
     except tweepy.TweepyException as e:
         print(f"Error searching tweets: {e}")
-
 # Function to retweet
 def auto_retweet(search_term, max_tweets):
     query = f"{search_term} -is:retweet"
@@ -60,7 +59,6 @@ def auto_comment(search_term, max_tweets, comment_text):
                     print(f"Error commenting: {e}")
     except tweepy.TweepyException as e:
         print(f"Error searching tweets: {e}")
-
 if __name__ == "__main__":
     # Main parameters
     search_keyword = "Python"
