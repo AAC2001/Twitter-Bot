@@ -16,6 +16,7 @@ client = tweepy.Client(
     access_token_secret=ACCESS_TOKEN_SECRET
 )
 
+
 # Function to like tweets
 def auto_like(search_term, max_tweets):
     query = f"{search_term} -is:retweet"
