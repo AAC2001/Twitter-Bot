@@ -45,7 +45,6 @@ def auto_retweet(search_term, max_tweets):
                     print(f"Error retweeting: {e}")
     except tweepy.TweepyException as e:
         print(f"Error searching tweets: {e}")
-
 # Function to comment on tweets
 def auto_comment(search_term, max_tweets, comment_text):
     query = f"{search_term} -is:retweet"
