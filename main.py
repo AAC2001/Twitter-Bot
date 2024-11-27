@@ -1,5 +1,4 @@
 import tweepy
-
 # Twitter API credentials
 BEARER_TOKEN = 'your Bearer_token'
 API_KEY = 'your Api Key'
