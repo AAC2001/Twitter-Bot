@@ -64,7 +64,6 @@ if __name__ == "__main__":
     search_keyword = "Python"
     number_of_tweets = 10
     comment_message = "Great tweet!"
-
     # Execute functions
     auto_like(search_keyword, number_of_tweets)
     auto_retweet(search_keyword, number_of_tweets)
